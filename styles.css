@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+nav {
+    background-color: rgb(233, 152, 86);
+    
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 12px;
+}
+
+header {
+    margin: 12px;
+    text-align: center;
+}
+
+a {
+    background-color: rgb(188, 187, 199);
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 0.3rem;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+
+.landing {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    width: max-content;
+    align-items: stretch;
+    text-align: center;
+    margin: 0 auto;
+}
